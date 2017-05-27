@@ -35,8 +35,8 @@ This is where Distributed Version Control Systems (DVCSs) step in. In a DVCS (su
 
 You should have to do these things only once on any given computer; they’ll stick around between upgrades. You can also change them at any time by running through the commands again.
 
-git config --global user.name "Herman Soto"
-git config --global user.email "hermansoto@me.com"
+git config --global user.name "john doe"
+git config --global user.email "johndoe@example.com"
 git config --global push.default matching
 git config --global alias.co checkout
 
