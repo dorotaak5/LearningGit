@@ -1,0 +1,41 @@
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+h1 {
+  text-align: center;
+}
+
+div {
+  margin: 10px;
+  padding: 2px;
+  border: 1px solid black;
+}
+
+.description {
+  margin: 0px;
+  padding: 0px;
+  color: gray;
+}
+
+h3 {
+    margin: 0px;
+    padding: 2px;
+}
+
+em {
+  color: red;
+}
+
+.gitLinks   {
+  text-decoration: none;
+	color: blue;
+	display: block;
+}
+
+.gitLinks:hover {
+  text-decoration: none;
+	color: red;
+}

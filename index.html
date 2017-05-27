@@ -1,0 +1,157 @@
+<!doctype html>
+
+<html>
+  
+  <head>
+    <title>Git Learning Center</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+
+    </style>
+  </head>
+  
+  <body>
+    
+    <h1>Learn Git</h1>
+    <div>
+    <h3>git --version</h3>
+    <p class="description">Tells you if git is installed and what version</p>
+    </div> 
+    
+    <div>
+    <h3>git init</h3>
+    <p class="description">Initializes git repository</p>
+    </div> 
+    
+    <div>
+    <h3>git status</h3>
+    <p class="description">Will show changes or current status since last git push
+    To check current state of file updates with already committed code in repo -></p>
+    </div> 
+    
+    <div>
+      <h2>Git config</h2>
+      <h3>git config --global user.name <em>"put your full name here"</em></h3>
+      <h3>git config --global user.email <em>"put your email address here"</em></h3>
+      <p class="description">First time (required only once to configure git for your environment):</p>
+      <h3>git config</h3>
+      <h3>git config --list</h3>
+      <p class="description">To display git config settings:</p>
+    </div>
+    
+    <div>
+      <h2>Git add</h2>
+      <h3>git add <em>put file or folder name here</em></h3>
+      <h3>git add . <em>put file or folder name here</em></h3>
+      <p class="description">This will add all folders and files to the staged area</p>
+      <h3>git add *. <em>put file name here.html</em></h3>
+      <p class="description">This will add all html file to the staged area</p>
+      <h3>git add -A <em>put file or folder name here</em></h3>
+      <p class="description">To add and track all files to the staged area</p>
+    </div>
+    
+    <div>
+      <h2>Git remove</h2>
+      <h3>git rm --cached <em>put file name here</em></h3>
+      <p class="description">This will remove a file from a staged area</p>
+      <h3>git rm --cached -r <em>put a folder path  name here</em></h3>
+      <p class="description">This will remove a folder from a staged area</p>
+    </div>
+    
+    <div>
+      <h2>Git commit</h2>
+      <h3>git commit <em>put file or folder name here</em></h3>
+      <p class="description">This will commit any staged files and folders to the repository</p>
+      <p class="description">You will have to remove a hashtag and right your message then hit esc then put :wq</p>
+      <h3>git commit -m <em>"Put statement to save"</em></h3>
+      <p class="description">To commit changes/updates/additions to repository</p>
+      <h3>git commit -a -m <em>"Put statement to save"</em></h3>
+      <p class="description">To add and commit changes/updates/additions to repository</p>
+    </div>
+    
+    <div>
+      <h2>Git ignore</h2>
+      <h3>create a file named <em>.gitignore</em></h3>
+      <em>Then put the names of the files or folders you do not want to be tracked inside the .gitignore file</em>
+      <p class="description">This will keep files and folders from being tracked </p>
+      <h3> *<em>.html</em></h3>
+      <p class="description">Will keep all html file untracked</p>
+      <h3> /<em>put folder name here</em></h3>
+      <p class="description">This will keep this folder untracked</p>
+      <h3> <em>put file name here</em></h3>
+      <p class="description">This will keep this file untracked</p>
+    </div>
+    
+    <div>
+      <h2>Git branch</h2>
+      
+      <h3>git branch</h3>
+      <p class="description">This will let you view a list of branches:</p>
+      
+      <h3>git branch <em>put a branch name</em></h3>
+      <p class="description">This will create a branch</p>
+      
+      <h3>git checkout -f <em>name of branch</em></h3>
+      <p class="description">This will reject latest changes</p>
+      
+      <h3>git checkout -b <em>name of branch</em></h3>
+      <p class="description">To create a feature branch:</p>
+       
+      <h3>git branch -d <em>name of branch</em></h3>
+      <p class="description">To delete a feature branch that is no longer needed and has been merged to master already:</p>
+       
+      <h3>git branch -D <em>name of branch</em></h3>
+      <p class="description">To delete a feature branch that is no longer needed but has NOT been merged to master:</p>
+      
+      <h3>git checkout  <em>name of branch</em></h3>
+      <p class="description">To move to already created feature branch:</p>
+      
+      <h3>git merge  <em>name of branch</em></h3>
+      <p class="description">To merge the changes in the feature branch to the master branch first switch to master branch:</p>
+      
+      <h3>git remote -v</h3>
+      <p class="description">To view remotes setup in your environment (from your app directory):</p>
+      
+    </div>
+    
+    <div>
+      <h2>GitHub</h2>
+      
+      <h3>git push</h3>
+      <p class="description">This will add commit to git hub first time as well</p>
+      
+      <h3>cat ~/.ssh/id_rsa.pub</h3>
+      <p class="description">Dispays your public ssh key</p>
+      
+      <p>
+        When creating github repo for application ensure you click the SSH button then push existing repo:
+        git remote add origin git@github.com:yourgithubaccountname/alpha-blog.git
+        git push -u origin master # Remember you only need to use this command the first time
+      </p>
+      
+    </div>
+    
+    <div>
+      <h2>Git references:</h2>
+      <ul class="gitLinks">
+        <li class="gitLinks"><a href="http://www.git-scm.com" class="gitLinks">git-scm.com</a></li>
+        <li class="gitLinks"><a href="http://www.git-scm.com" class="gitLinks">git-scm.com/book/en/v2</a></li>
+        <li class="gitLinks"><a href="http://www.git-scm.com" class="gitLinks">gitref.org</a></li>
+      </ul>
+    </div>
+    
+    <div >
+      <h2>Site to create free online code repositories:</h2>
+      <ul class="gitLinks">
+        <li class="gitLinks"><a href="http://www.git-scm.com" class="gitLinks">github.com</a></li>
+        <li class="gitLinks"><a href="http://www.git-scm.com" class="gitLinks">bitbucket.org</a></li>
+      </ul>
+    </div>
+  
+  
+    <script src="assets/js/app.js"></script>   
+  </body>        
+          
+</html>
