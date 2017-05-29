@@ -14,8 +14,7 @@
   
   <body>
     
-    <h1>Learn Git</h1> 
-    <button>Login</button>
+    <h1>Learn Git</h1>
     <div>
     <h3>git --version</h3>
     <p class="description">Tells you if git is installed and what version</p>
@@ -54,26 +53,6 @@
     </div>
     
     <div>
-      <h2>Git diff <em>Show difference in modified files</em></h2>
-      
-      <h3>git diff </h3>
-      <p class="description">This will add all folders and files to the staged area</p>
-      
-      <h3>git diff <em>put file or folder name here</em></h3>
-      <p class="description">This will show differences between modified and repo</p>
-      
-      <h3>git diff --staged <em></em></h3>
-      <p class="description">This will show difference between staged and repo </p>
-      
-      <h3>git mv <em>put file or folder name here</em>, <em>put the new of folder here</em></h3>
-      <p class="description"> renames file</p>
-      
-      <h3>git mv <em>put file or folder name here</em>, <em>put the new folder name here/</em>, <em>put the name or rename of folder or file here</em></h3>
-      <p class="description"> moves a file</p>
-      
-    </div>
-    
-    <div>
       <h2>Git remove</h2>
       <h3>git rm --cached <em>put file name here</em></h3>
       <p class="description">This will remove a file from a staged area</p>
@@ -90,36 +69,6 @@
       <p class="description">To commit changes/updates/additions to repository</p>
       <h3>git commit -a -m <em>"Put statement to save"</em></h3>
       <p class="description">To add and commit changes/updates/additions to repository</p>
-    </div>
-    
-    <div>
-      
-      <h2>Git log</h2>
-    
-      <h3>git log</h3>
-      <p class="description">This will look at hidden files</p>
-      
-      <h3>git log -n</h3>
-      <p class="description">This will show commits</p>
-      
-      <h3>git log -n 1 </h3>
-      <p class="description">This will </p>
-  
-      <h3>git help log </h3>
-      <p class="description">This will </p>
-  
-      <h3>git log --since=2017-05-26</h3>
-      <p class="description">This will give a log from the date selected </p>
-  
-      <h3>git log --until=2017-05-26</h3>
-      <p class="description">This will give a log before the date selected </p>
-  
-      <h3>git log --author="herman"</h3>
-      <p class="description">This will give a log before the date selected </p>
-  
-      <h3>git log --grep="Init"</h3>
-      <p class="description">global regular expression search will look for this word in any commits </p>
-  
     </div>
     
     <div>
@@ -170,72 +119,35 @@
     <div>
       <h2>GitHub</h2>
       
-      <h3>cat ~/.ssh/id_rsa.pub</h3>
-      <p class="description">Dispays your public ssh key</p>
-      
-      <h3>git remote add origin git@github.com:yourgithubaccountname/yourrepositoryname.git</h3>
-      <h3>git push -u origin master # Remember you only need to use this command the first time</h3>
-      <p>
-        When creating github repo for application ensure you click the SSH button then push existing repo:
-      </p>
-      
       <h3>git push</h3>
       <p class="description">This will add commit to git hub first time as well</p>
       
-      <h3>git pull</h3>
-      <p class="description">This will grab the most recent snapshot in github</p>
+      <h3>cat ~/.ssh/id_rsa.pub</h3>
+      <p class="description">Dispays your public ssh key</p>
       
-      <h3>git clone <a href="https://github.com/herman113/LearningGit">git@github.com:herman113/LearningGit.git<a></h3>
-      <p class="description">This will copy this web application</p>
+      <p>
+        When creating github repo for application ensure you click the SSH button then push existing repo:
+        git remote add origin git@github.com:yourgithubaccountname/alpha-blog.git
+        git push -u origin master # Remember you only need to use this command the first time
+      </p>
       
     </div>
     
     <div>
       <h2>Git references:</h2>
       <ul class="gitLinks">
-        <li class="gitLinks"><a href="http://www.git-scm.com" class="gitLinks" target="_blank" >git-scm.com</a></li>
-        <li class="gitLinks"><a href="https://www.git-scm.com/doc" class="gitLinks" target="_blank" >git documentation</a></li>
-        <li class="gitLinks"><a href="https://git-scm.com/book/en/v2" class="gitLinks" target="_blank">git-scm.com/book/en/v2</a></li>
-        <li class="gitLinks"><a href="https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf" class="gitLinks" target="_blank">Git cheat sheet</a></li>
-        <li class="gitLinks"><a href="http://gitref.org/" class="gitLinks" target="_blank">gitref.org</a></li>
-        <li class="gitLinks"><a href="https://stackoverflow.com/questions/4114095/how-to-revert-git-repository-to-a-previous-commit/4114122#4114122" class="gitLinks" target="_blank">git revert Stack overflow</a></li>
-        <li class="gitLinks"><a href="https://www.youtube.com/watch?v=xH27nr7iaZM&list=PLEIPSRdn5KEoLbRZJuS4bLlldQ4wiA5Nf&index=3" class="gitLinks" target="_blank">You tube Git Tutorial for Beginners 3 Getting Started</a></li>
-        <li class="gitLinks"><a href="https://stackoverflow.com/questions/315911/git-for-beginners-the-definitive-practical-guide" class="gitLinks" target="_blank">Git for beginners: The definitive practical guide</a></li>
+        <li class="gitLinks"><a href="http://www.git-scm.com" class="gitLinks">git-scm.com</a></li>
+        <li class="gitLinks"><a href="http://www.git-scm.com" class="gitLinks">git-scm.com/book/en/v2</a></li>
+        <li class="gitLinks"><a href="http://www.git-scm.com" class="gitLinks">gitref.org</a></li>
       </ul>
     </div>
     
     <div >
       <h2>Site to create free online code repositories:</h2>
       <ul class="gitLinks">
-        <li class="gitLinks"><a href="http://www.git-scm.com" class="gitLinks" target="_blank">github.com</a></li>
-        <li class="gitLinks"><a href="http://www.git-scm.com" class="gitLinks" target="_blank">bitbucket.org</a></li>
+        <li class="gitLinks"><a href="http://www.git-scm.com" class="gitLinks">github.com</a></li>
+        <li class="gitLinks"><a href="http://www.git-scm.com" class="gitLinks">bitbucket.org</a></li>
       </ul>
-    </div>
-    
-    <div >
-      <h2>General Resources</h2>
-      <ul class="gitLinks">
-        <li class="gitLinks"><a href="https://www.youtube.com/user/c9ide" class="gitLinks" target="_blank">Cloud 9</a></li>
-        <li class="gitLinks"><a href="https://www.kirupa.com/html5/getting_your_feet_wet_html5_pg2.htm" class="gitLinks" target="_blank">Basic html, css, and js page</a></li>
-        <li class="gitLinks"><a href="https://egghead.io/users/sign_in" class="gitLinks" target="_blank">Egg head</a></li>
-      </ul>
-    </div>
-    
-    
-    
-    <div>
-      
-      <h2>Command line</h2>
-    
-      <h3>ls -la</h3>
-      <p class="description">This will look at hidden files</p>
-      
-      <h3></h3>
-      <p class="description">This will </p>
-      
-      <h3> </h3>
-      <p class="description">This will </p>
-      
     </div>
   
   
