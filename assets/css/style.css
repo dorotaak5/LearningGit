@@ -39,3 +39,8 @@ em {
   text-decoration: none;
 	color: red;
 }
+
+.login {
+  float: right;
+  /*display: none;*/
+}
